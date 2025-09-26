@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 防止 Ant Design 样式闪烁 */
+/* .ant-btn, .ant-modal, .ant-descriptions {
+  transition: none !important;
+} */
+
+/* 确保在加载期间有基本样式 */
+/* .ant-modal {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+} */
+
+/* 预加载 Ant Design 的基础样式 */
+/* body {
+  --ant-primary-color: #1677ff;
+  --ant-error-color: #ff4d4f;
+  --ant-warning-color: #faad14;
+  --ant-success-color: #52c41a;
+  --ant-info-color: #1677ff;
+} */
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
