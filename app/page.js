@@ -25,7 +25,8 @@ const Home = () => {
 
   return (
     <>
-      <Button type="primary" onClick={showTheModalEvent}>Button</Button>
+      {/* <div>Page</div> */}
+      {/* <Button type="primary" onClick={showTheModalEvent}>Button</Button>
       <Modal
         isModalOpen={isModalOpen}
         setIsModalOpen={setIsModalOpen}
@@ -33,7 +34,7 @@ const Home = () => {
         handleOk={handleOk}
         config={['isName']}
         PassParams={PassParams}
-      /> 
+      />  */}
     </>
   )
 }
