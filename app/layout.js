@@ -1,7 +1,6 @@
 import localFont from "next/font/local"
-// import "./globals.css"
+import "./globals.css"
 import AntdRegistry from './components/AntdRegistry';
-import Link from 'next/link';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,6 +24,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* {children} */}
         <AntdRegistry>
           {children}
         </AntdRegistry>
