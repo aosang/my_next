@@ -1,11 +1,10 @@
 import "./globals.css";
 
-export default function Layout({ children, modal }) {
+export default function Layout({ children }) {
   return (
     <html>
       <body>
         {children}
-        {modal}
       </body>
     </html>
   )
